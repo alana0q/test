@@ -176,7 +176,7 @@ clean {
 
 task downloadBootstraps() {
     doLast {
-        def version = "2021.10.31-r1"
+        def version = "2021.10.03-r1"
         downloadBootstrap("aarch64", "abba0bab1155ca081b96556f5ac69c7f85f332f67665503fc488a82338a739de", version)
         downloadBootstrap("arm",     "3ab34567d69be26183f1bd30b2a9a20fb8d95c4217c55fbe4ea0dda92f9ebc35", version)
         downloadBootstrap("i686",    "fda0463b7a448362d91f56448518eae9985f3d069e24608e17c2c66097993037", version)
